@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="assets/styles/index.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="stars" id="stars"></div>
+
+  <div class="container">
+    <h1 class="title">Pokédex</h1>
+    <p class="subtitle">Attrape-les tous !</p>
+
+    <div class="pokeball-wrapper" id="pokeballWrapper">
+      <img 
+        src="assets/images/pokebola.webp" 
+        alt="Pokeball" 
+        class="pokeball" 
+        id="pokeball"
+      />
+      <div class="glow-ring" id="glowRing"></div>
+      <button class="center-btn" id="centerBtn" aria-label="Ouvrir le Pokédex"></button>
+    </div>
+
+    <p class="hint" id="hint">Appuie sur la Pokeball</p>
+  </div>
+
+  <div class="flash-overlay" id="flashOverlay"></div>
+
+  <script src="assets/scripts/index.js"></script>
+</body>
+</html>

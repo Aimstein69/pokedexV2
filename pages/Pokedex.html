@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex — Détail</title>
+  <link rel="stylesheet" href="../assets/styles/Pokedex.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <div class="bg-blur" id="bgBlur"></div>
+
+  <header>
+    <a href="PokeCards.html" class="back-btn">← Cards</a>
+    <span class="header-num" id="headerNum">#001</span>
+    <a href="../index.html" class="home-btn">
+      <img src="../assets/images/pokebola.webp" alt="Home"/>
+    </a>
+  </header>
+
+  <div class="dex-container" id="dexContainer">
+
+    <!-- PANNEAU GAUCHE : IMAGE + NAV -->
+    <div class="panel-left">
+      <div class="img-wrap" id="imgWrap">
+        <div class="type-bg" id="typeBg"></div>
+        <img id="pokemonImg" src="" alt=""/>
+        <div class="shiny-hint" id="shinyHint" title="Shiny">✨</div>
+      </div>
+      <div class="nav-btns">
+        <button id="btnPrev">◀ Préc.</button>
+        <button id="btnNext">Suiv. ▶</button>
+      </div>
+    </div>
+
+    <!-- PANNEAU DROIT : INFOS -->
+    <div class="panel-right">
+      <div class="poke-header">
+        <h1 id="pokemonName">–</h1>
+        <div class="type-badges" id="typeBadges"></div>
+      </div>
+
+      <!-- DESCRIPTION -->
+      <p class="poke-desc" id="pokeDesc">…</p>
+
+      <!-- INFOS DE BASE -->
+      <div class="info-grid">
+        <div class="info-box">
+          <span class="info-icon">⚖️</span>
+          <span class="info-val" id="infoWeight">–</span>
+          <span class="info-lbl">Poids</span>
+        </div>
+        <div class="info-box">
+          <span class="info-icon">📏</span>
+          <span class="info-val" id="infoHeight">–</span>
+          <span class="info-lbl">Taille</span>
+        </div>
+        <div class="info-box">
+          <span class="info-icon">🏷️</span>
+          <span class="info-val" id="infoCategory">–</span>
+          <span class="info-lbl">Catégorie</span>
+        </div>
+      </div>
+
+      <!-- STATS -->
+      <div class="stats-section">
+        <h3 class="section-title">📊 Statistiques</h3>
+        <div id="statsContainer"></div>
+      </div>
+
+      <!-- ATTAQUES -->
+      <div class="moves-section">
+        <h3 class="section-title">⚔️ Attaques</h3>
+        <div class="moves-list" id="movesList"></div>
+      </div>
+
+      <!-- ÉVOLUTIONS -->
+      <div class="evo-section">
+        <h3 class="section-title">🔄 Évolutions</h3>
+        <div class="evo-chain" id="evoChain">
+          <span class="evo-loading">Chargement…</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="../assets/scripts/Pokedex.js"></script>
+</body>
+</html>

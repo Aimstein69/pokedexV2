@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex — Cards</title>
+  <link rel="stylesheet" href="../assets/styles/PokeCards.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <a href="../index.html" class="back-home" title="Accueil">
+      <img src="../assets/images/pokebola.webp" alt="Home"/>
+    </a>
+    <h1>Pokédex</h1>
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Rechercher…" autocomplete="off"/>
+    </div>
+    <div class="filter-bar" id="typeFilters"></div>
+    
+    <!-- Boutons si NON connecté -->
+    <div id="notAuthButtons" style="display: none;">
+      <a href="/pages/Sign-in.html">
+        <div class="Btn-signin" id="signIn">Sign-In</div>
+      </a>
+      <a href="/pages/Login.html">
+        <div class="Btn-login" id="login">Login</div>
+      </a>
+    </div>
+    
+    <!-- Boutons si connecté -->
+    <div id="authButtons" style="display: none;" class="auth-buttons">
+      <a href="/pages/PokeCards.html" class="nav-btn">🎴 Cards</a>
+      <a href="/pages/UserInventory.html" class="nav-btn">📦 Inventaire</a>
+      <a href="/pages/PackOpening.html" class="nav-btn">🎁 Packs</a>
+      <a href="/pages/pvpCard.html" class="nav-btn">⚔️ PvP</a>
+      <a href="/pages/UserProfil.html" class="nav-btn">👤 Profil</a>
+      <button onclick="logout()" class="nav-btn logout-btn">Déco</button>
+    </div>
+  </header>
+
+  <div class="loader" id="loader">
+    <div class="pokeball-loader">
+      <div class="pb-top"></div>
+      <div class="pb-band"><div class="pb-btn"></div></div>
+      <div class="pb-bottom"></div>
+    </div>
+    <p>Chargement des Pokémons…</p>
+    <div class="progress-bar-wrap"><div class="progress-bar" id="progressBar"></div></div>
+  </div>
+
+  <div class="cards-grid" id="cardsGrid"></div>
+
+  <!-- Script d'authentification -->
+  <script>
+    // ── Récupère le token stocké ──────────────────────────
+    function getToken() {
+      return localStorage.getItem('token');
+    }
+
+    // ── Récupère l'user stocké ────────────────────────────
+    function getUser() {
+      const u = localStorage.getItem('user');
+      return u ? JSON.parse(u) : null;
+    }
+
+    // ── Déconnexion ───────────────────────────────────────
+    function logout() {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      window.location.href = '/pages/Login.html';
+    }
+
+    // ── Affiche/cache les boutons selon l'auth ────────────
+    function updateAuthUI() {
+      const token = getToken();
+      const notAuthButtons = document.getElementById('notAuthButtons');
+      const authButtons = document.getElementById('authButtons');
+
+      if (token && token.trim() !== '') {
+        notAuthButtons.style.display = 'none';
+        authButtons.style.display = 'flex';
+      } else {
+        notAuthButtons.style.display = 'flex';
+        authButtons.style.display = 'none';
+      }
+    }
+
+    // ── Exécution immédiate et au chargement ───────────────
+    updateAuthUI();
+    document.addEventListener('DOMContentLoaded', updateAuthUI);
+  </script>
+
+  <script src="../assets/scripts/PokeCards.js"></script>
+</body>
+</html>

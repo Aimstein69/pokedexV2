@@ -1,0 +1,145 @@
+/* ===== VARIABLES ===== */
+:root {
+  --bg: #0a0a14;
+  --card-bg: #13132a;
+  --card-border: rgba(255,255,255,0.07);
+  --text: #f0f0ff;
+  --muted: #7777aa;
+  --accent: #ffcb05;
+  --radius: 20px;
+}
+
+/* ===== RESET ===== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Nunito', sans-serif; min-height: 100vh; }
+
+/* ===== HEADER ===== */
+header {
+  position: sticky; top: 0; z-index: 100;
+  background: rgba(10,10,20,0.96);
+  backdrop-filter: blur(14px);
+  border-bottom: 1px solid var(--card-border);
+  padding: 0.9rem 1.5rem;
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem;
+}
+
+.back-home img {
+  width: 36px; height: 36px;
+  object-fit: contain;
+  filter: drop-shadow(0 0 6px rgba(220,50,50,0.5));
+  transition: transform 0.2s, filter 0.2s;
+}
+
+.back-home:hover img { transform: scale(1.1); }
+
+header h1 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.8rem;
+  color: var(--accent);
+  text-shadow: 1px 1px 0 #a07800;
+  letter-spacing: 1px;
+  margin-right: auto;
+}
+
+/* ===== BOUTONS AUTHENTIFICATION ===== */
+#notAuthButtons {
+  display: flex;
+  gap: 0.8rem;
+  margin-left: auto;
+}
+
+#notAuthButtons a { text-decoration: none; }
+
+.Btn-signin, .Btn-login {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-family: 'Press Start 2P', monospace;
+  font-size: 0.6rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: none;
+  color: #000;
+}
+
+.Btn-signin {
+  background: linear-gradient(135deg, #ffcb05, #ff9a00);
+}
+
+.Btn-signin:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(255, 203, 5, 0.3);
+}
+
+.Btn-login {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.Btn-login:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(79, 172, 254, 0.3);
+}
+
+.auth-buttons {
+  display: flex !important;
+  gap: 0.8rem;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+
+.nav-btn {
+  padding: 0.6rem 1rem;
+  border-radius: 8px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.2s;
+  border: 1px solid rgba(255, 203, 5, 0.3);
+  background: rgba(255, 203, 5, 0.1);
+  color: var(--accent);
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-btn:hover {
+  background: rgba(255, 203, 5, 0.2);
+  border-color: var(--accent);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(255, 203, 5, 0.2);
+}
+
+.logout-btn {
+  background: rgba(230, 57, 70, 0.15);
+  border-color: rgba(230, 57, 70, 0.4);
+  color: #f87171;
+}
+
+.logout-btn:hover {
+  background: rgba(230, 57, 70, 0.25);
+  border-color: #f87171;
+  box-shadow: 0 6px 16px rgba(230, 57, 70, 0.2);
+}
+
+/* ===== MAIN CONTENT ===== */
+main {
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+main h2 {
+  font-family: 'Press Start 2P', monospace;
+  font-size: 1.2rem;
+  color: var(--accent);
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 0 #a07800;
+}
+
+#pvpContent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}

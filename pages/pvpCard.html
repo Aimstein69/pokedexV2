@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pokédex — PvP</title>
+  <link rel="stylesheet" href="../assets/styles/PvpCard.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <header>
+    <a href="../index.html" class="back-home" title="Accueil">
+      <img src="../assets/images/pokebola.webp" alt="Home"/>
+    </a>
+    <h1>Pokédex</h1>
+    
+    <!-- Boutons si NON connecté -->
+    <div id="notAuthButtons" style="display: none;">
+      <a href="/pages/Sign-in.html">
+        <div class="Btn-signin" id="signIn">Sign-In</div>
+      </a>
+      <a href="/pages/Login.html">
+        <div class="Btn-login" id="login">Login</div>
+      </a>
+    </div>
+    
+    <!-- Boutons si connecté -->
+    <div id="authButtons" style="display: none;" class="auth-buttons">
+      <a href="/pages/PokeCards.html" class="nav-btn">🎴 Cards</a>
+      <a href="/pages/UserInventory.html" class="nav-btn">📦 Inventaire</a>
+      <a href="/pages/PackOpening.html" class="nav-btn">🎁 Packs</a>
+      <a href="/pages/pvpCard.html" class="nav-btn">⚔️ PvP</a>
+      <a href="/pages/UserProfil.html" class="nav-btn">👤 Profil</a>
+      <button onclick="logout()" class="nav-btn logout-btn">Déco</button>
+    </div>
+  </header>
+
+  <main id="pvpContent">
+    <h2>Batailles PvP</h2>
+    <!-- Le contenu des batailles sera généré par JavaScript -->
+  </main>
+
+  <script src="../assets/scripts/pvpCard.js"></script>
+</body>
+</html>

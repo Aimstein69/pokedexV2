@@ -1,0 +1,67 @@
+{
+  "📌 SYSTÈME DE TOKENS - SOURCE UNIQUE DE VÉRITÉ": {
+    "modèlesLegitimes": [
+      {
+        "fichier": "backend/models/User.js",
+        "utilisation": "Modèle Mongoose utilisé par le serveur",
+        "tokensDefaut": 500,
+        "description": "☝️ C'est LE SEUL modèle qui existe vraiment"
+      },
+      {
+        "fichier": "backend/migrations/fixTokensDefaults.js",
+        "utilisation": "Corriger les anciens users avec 200 → 500",
+        "commande": "node backend/migrations/fixTokensDefaults.js"
+      }
+    ],
+    
+    "fichiersRedondants": [
+      {
+        "fichier": "assets/scripts/User.js",
+        "statut": "❌ À SUPPRIMER",
+        "raison": "Modèle Mongoose côté client (impossible à utiliser)",
+        "impact": "AUCUN - Jamais importé nulle part"
+      }
+    ],
+
+    "fluxDesTokens": {
+      "créationCompte": {
+        "source": "backend/models/User.js (default: 500)",
+        "action": "new User() dans authController.register",
+        "tokenInitial": 500
+      },
+      "connexionQuotidienne": {
+        "source": "backend/models/User.js (handleDailyLogin)",
+        "action": "Login → user.handleDailyLogin()",
+        "tokenGain": 50,
+        "cycle": "7 jours (jours 0-3: +50, jour 4-5: +pack, jour 6: +pack+50)"
+      },
+      "achatPacks": {
+        "source": "backend/controllers/packController.js",
+        "packs": {
+          "Starter": { "prix": 50, "cartes": 3 },
+          "Standard": { "prix": 100, "cartes": 5 },
+          "Premium": { "prix": 200, "cartes": 8 },
+          "Legendary": { "prix": 500, "cartes": 10 }
+        }
+      }
+    },
+
+    "vérificationsCohérence": {
+      "✅ authController.js": "tokens: user.tokens || 500",
+      "✅ userController.js": "tokens: user.tokens ?? 500",
+      "✅ packController.js": "prix premium: 200, legendary: 500",
+      "✅ migrations": "tokens: 500 (nouveau default)",
+      "❌ assets/scripts/User.js": "Ne doit pas exister"
+    },
+
+    "siFousVoyezEncor'200Tokens": {
+      "problème": "Anciens users créés avant le changement 200→500",
+      "solution": "Exécuter la migration : node backend/migrations/fixTokensDefaults.js",
+      "ceQueFait": [
+        "Remplace tokens: 200 → tokens: 500 pour les anciens users",
+        "Ajoute default 500 aux users sans le champ tokens",
+        "Initialise dailyLoginStreak et lastLoginDate"
+      ]
+    }
+  }
+}

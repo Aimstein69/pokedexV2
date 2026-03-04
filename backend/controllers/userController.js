@@ -22,7 +22,7 @@ const getProfile = async (req, res) => {
       username: user.username,
       email: user.email,
       avatar: user.avatar,
-      tokens: user.tokens ?? 200,
+      tokens: user.tokens ?? 500,
       stats: user.stats,
       dailyLoginStreak: user.dailyLoginStreak,
       dailyLoginDay: user.dailyLoginDay,

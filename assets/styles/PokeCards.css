@@ -166,7 +166,7 @@ a{
 /* ===== CARD ===== */
 .poke-card {
   background: var(--card-bg);
-  border: 1px solid var(--card-border);
+  border: 3px solid var(--card-border);
   border-radius: var(--radius);
   cursor: pointer; overflow: hidden;
   transition: transform 0.25s, box-shadow 0.25s;
@@ -174,7 +174,8 @@ a{
 }
 .poke-card:hover {
   transform: translateY(-7px) scale(1.02);
-  box-shadow: 0px 20px 50px rgba(246, 197, 3, 0.667);
+  border-color: var(--accent);
+  
 }
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }

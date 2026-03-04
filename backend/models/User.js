@@ -31,7 +31,7 @@ const userSchema = new mongoose.Schema(
     // ── TOKENS ──────────────────────────────────────────
     tokens: {
       type: Number,
-      default: 200,
+      default: 500,
     },
     // ── SYSTÈME DE DAILY LOGIN ──────────────────────────
     lastLoginDate: {
@@ -64,7 +64,7 @@ const userSchema = new mongoose.Schema(
       default: Date.now,
     },
   },
-  { timestamps: true }
+  { timestamps: true },
 );
 
 // Hash password avant de sauvegarder

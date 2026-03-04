@@ -1258,3 +1258,1057 @@
 [2026-03-02T01:09:44.947Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
 [2026-03-02T01:09:44.959Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
 [2026-03-02T01:09:44.975Z] 👤 User loaded: ratata
+[2026-03-02T01:45:58.097Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T01:45:58.103Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T01:45:58.112Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T01:45:58.130Z] 👤 User loaded: ratata
+[2026-03-02T01:45:58.139Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T01:45:58.145Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T01:45:58.150Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T01:45:58.155Z] 👤 User loaded: ratata
+[2026-03-02T19:25:46.221Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:25:46.227Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:25:46.234Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:25:46.246Z] 👤 User loaded: ratata
+[2026-03-02T19:25:46.311Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:25:46.342Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:25:46.349Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:25:46.358Z] 👤 User loaded: ratata
+[2026-03-02T19:26:15.956Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:26:15.960Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:26:15.965Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:26:15.972Z] 👤 User loaded: ratata
+[2026-03-02T19:26:15.983Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:26:15.990Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:26:15.995Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:26:16.004Z] 👤 User loaded: ratata
+[2026-03-02T19:26:16.017Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T19:26:16.023Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:26:16.029Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:26:16.036Z] 👤 User loaded: ratata
+[2026-03-02T19:26:16.051Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T19:26:16.056Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:26:16.063Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:26:16.071Z] 👤 User loaded: ratata
+[2026-03-02T19:57:25.292Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:57:25.296Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:57:25.302Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:57:25.309Z] 👤 User loaded: ratata
+[2026-03-02T19:57:25.321Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:57:25.326Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:57:25.333Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:57:25.339Z] 👤 User loaded: ratata
+[2026-03-02T19:57:27.084Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-02T19:57:27.089Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:57:27.094Z] 🔓 Token decoded, user id: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:57:27.099Z] 👤 User loaded: ratata
+[2026-03-02T19:57:27.105Z] 🔵 claimDailyReward called for user: 69a1c3e9bb4042348ddd6b76
+[2026-03-02T19:57:27.113Z] 📋 User found: ratata
+[2026-03-02T19:57:27.117Z] 📅 Last Login Date: Mon Mar 02 2026 02:07:16 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-02T19:57:27.122Z] 🎯 Daily Login Streak: 1
+[2026-03-02T19:57:27.126Z] 📊 Daily Login Day: 1
+[2026-03-02T19:57:27.129Z] 🎁 Daily Reward Result: {"rewarded":false,"reason":"Déjà connecté aujourd'hui"}
+[2026-03-02T19:57:27.132Z] ⏳ Already rewarded today
+[2026-03-02T19:58:12.371Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:12.376Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:12.383Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:12.390Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:12.402Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:12.407Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:12.414Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:12.419Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:14.485Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-02T19:58:14.490Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:14.498Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:14.506Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:14.511Z] 🔵 claimDailyReward called for user: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:14.518Z] 📋 User found: ratatroi
+[2026-03-02T19:58:14.523Z] 📅 Last Login Date: Mon Mar 02 2026 20:58:05 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-02T19:58:14.528Z] 🎯 Daily Login Streak: 1
+[2026-03-02T19:58:14.533Z] 📊 Daily Login Day: 1
+[2026-03-02T19:58:14.538Z] 🎁 Daily Reward Result: {"rewarded":false,"reason":"Déjà connecté aujourd'hui"}
+[2026-03-02T19:58:14.543Z] ⏳ Already rewarded today
+[2026-03-02T19:58:16.559Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:16.563Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:16.568Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:16.577Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:16.588Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:16.593Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:16.599Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:16.607Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:19.202Z] 🔐 Protect middleware: POST /open
+[2026-03-02T19:58:19.207Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:19.214Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:19.222Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:20.472Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:20.478Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:20.488Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:20.497Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:28.678Z] 🔐 Protect middleware: POST /open
+[2026-03-02T19:58:28.684Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:28.694Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:28.703Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:29.948Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:29.952Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:29.962Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:29.971Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:32.259Z] 🔐 Protect middleware: POST /open
+[2026-03-02T19:58:32.263Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:32.270Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:32.278Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:33.522Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:33.532Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:33.540Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:33.554Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:39.292Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:39.296Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:39.301Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:39.309Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:39.325Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T19:58:39.330Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:39.337Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:39.347Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:39.358Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T19:58:39.363Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:39.369Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:39.377Z] 👤 User loaded: ratatroi
+[2026-03-02T19:58:39.390Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T19:58:39.396Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T19:58:39.401Z] 🔓 Token decoded, user id: 69a1c9d2fb1b64dbf7b49994
+[2026-03-02T19:58:39.409Z] 👤 User loaded: ratatroi
+[2026-03-02T20:08:27.059Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:27.071Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:27.082Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:27.094Z] 👤 User loaded: tester
+[2026-03-02T20:08:27.108Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:27.115Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:27.126Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:27.134Z] 👤 User loaded: tester
+[2026-03-02T20:08:29.366Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:29.369Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:29.375Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:29.387Z] 👤 User loaded: tester
+[2026-03-02T20:08:29.399Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:29.404Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:29.411Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:29.419Z] 👤 User loaded: tester
+[2026-03-02T20:08:32.028Z] 🔐 Protect middleware: POST /open
+[2026-03-02T20:08:32.036Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:32.044Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:32.051Z] 👤 User loaded: tester
+[2026-03-02T20:08:33.308Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:33.314Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:33.321Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:33.328Z] 👤 User loaded: tester
+[2026-03-02T20:08:39.016Z] 🔐 Protect middleware: POST /open
+[2026-03-02T20:08:39.021Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:39.026Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:39.032Z] 👤 User loaded: tester
+[2026-03-02T20:08:40.269Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:40.276Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:40.286Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:40.301Z] 👤 User loaded: tester
+[2026-03-02T20:08:47.237Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:47.242Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:47.248Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:47.257Z] 👤 User loaded: tester
+[2026-03-02T20:08:47.274Z] 🔐 Protect middleware: GET /profile
+[2026-03-02T20:08:47.280Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:47.287Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:47.295Z] 👤 User loaded: tester
+[2026-03-02T20:08:47.301Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T20:08:47.305Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:47.310Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:47.322Z] 👤 User loaded: tester
+[2026-03-02T20:08:47.338Z] 🔐 Protect middleware: GET /inventory
+[2026-03-02T20:08:47.342Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-02T20:08:47.349Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-02T20:08:47.359Z] 👤 User loaded: tester
+[2026-03-04T09:53:50.956Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:53:50.961Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:53:50.983Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:53:51.038Z] 👤 User loaded: tester
+[2026-03-04T09:53:51.050Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:53:51.056Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:53:51.061Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:53:51.068Z] 👤 User loaded: tester
+[2026-03-04T09:53:51.074Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:53:51.079Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:53:51.086Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:53:51.095Z] 👤 User loaded: tester
+[2026-03-04T09:53:51.127Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:53:51.132Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:53:51.139Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:53:51.147Z] 👤 User loaded: tester
+[2026-03-04T09:56:32.777Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:56:32.781Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:56:32.789Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:56:32.799Z] 👤 User loaded: tester
+[2026-03-04T09:56:32.813Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:56:32.819Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:56:32.831Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:56:32.841Z] 👤 User loaded: tester
+[2026-03-04T09:56:35.029Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-04T09:56:35.061Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:56:35.082Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:56:35.088Z] 👤 User loaded: tester
+[2026-03-04T09:56:35.094Z] 🔵 claimDailyReward called for user: 69a5ee225decabc11254bdb9
+[2026-03-04T09:56:35.100Z] 📋 User found: tester
+[2026-03-04T09:56:35.103Z] 📅 Last Login Date: Mon Mar 02 2026 21:08:18 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-04T09:56:35.107Z] 🎯 Daily Login Streak: 1
+[2026-03-04T09:56:35.112Z] 📊 Daily Login Day: 1
+[2026-03-04T09:56:35.119Z] 🎁 Daily Reward Result: {"rewarded":true,"tokens":50,"packs":0,"message":"✅ +50 tokens !","day":3}
+[2026-03-04T09:56:35.136Z] ✅ User saved with tokens: 50
+[2026-03-04T09:56:35.665Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:56:35.670Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:56:35.677Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:56:35.686Z] 👤 User loaded: tester
+[2026-03-04T09:57:55.044Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:57:55.048Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:57:55.054Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:57:55.062Z] 👤 User loaded: tester
+[2026-03-04T09:57:55.079Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:57:55.089Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:57:55.097Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:57:55.104Z] 👤 User loaded: tester
+[2026-03-04T09:57:55.110Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:57:55.115Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:57:55.120Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:57:55.127Z] 👤 User loaded: tester
+[2026-03-04T09:57:55.142Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:57:55.146Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:57:55.152Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:57:55.158Z] 👤 User loaded: tester
+[2026-03-04T09:58:02.592Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:58:02.597Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:58:02.604Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:58:02.614Z] 👤 User loaded: tester
+[2026-03-04T09:58:02.631Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T09:58:02.637Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:58:02.665Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:58:02.673Z] 👤 User loaded: tester
+[2026-03-04T09:58:02.680Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:58:02.684Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:58:02.689Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:58:02.698Z] 👤 User loaded: tester
+[2026-03-04T09:58:02.740Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T09:58:02.744Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T09:58:02.749Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T09:58:02.755Z] 👤 User loaded: tester
+[2026-03-04T10:02:18.647Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:02:18.651Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:02:18.658Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:02:18.665Z] 👤 User loaded: tester
+[2026-03-04T10:02:18.681Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:02:18.687Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:02:18.697Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:02:18.704Z] 👤 User loaded: tester
+[2026-03-04T10:02:18.711Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:02:18.715Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:02:18.720Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:02:18.730Z] 👤 User loaded: tester
+[2026-03-04T10:02:18.746Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:02:18.752Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:02:18.758Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:02:18.765Z] 👤 User loaded: tester
+[2026-03-04T10:05:46.844Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:05:46.848Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:05:46.853Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:05:46.862Z] 👤 User loaded: tester
+[2026-03-04T10:05:46.875Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:05:46.883Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:05:46.891Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:05:46.899Z] 👤 User loaded: tester
+[2026-03-04T10:05:46.905Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:05:46.910Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:05:46.914Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:05:46.922Z] 👤 User loaded: tester
+[2026-03-04T10:05:46.936Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:05:46.940Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:05:46.946Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:05:46.953Z] 👤 User loaded: tester
+[2026-03-04T10:10:14.511Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:14.516Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:14.523Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:14.530Z] 👤 User loaded: tester
+[2026-03-04T10:10:14.541Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:14.547Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:14.553Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:14.558Z] 👤 User loaded: tester
+[2026-03-04T10:10:14.565Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:14.569Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:14.573Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:14.582Z] 👤 User loaded: tester
+[2026-03-04T10:10:14.594Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:14.600Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:14.605Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:14.611Z] 👤 User loaded: tester
+[2026-03-04T10:10:22.772Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:22.777Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:22.784Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:22.792Z] 👤 User loaded: tester
+[2026-03-04T10:10:22.810Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:22.816Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:22.821Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:22.832Z] 👤 User loaded: tester
+[2026-03-04T10:10:22.839Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:22.844Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:22.849Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:22.895Z] 👤 User loaded: tester
+[2026-03-04T10:10:22.943Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:22.951Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:22.989Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:22.998Z] 👤 User loaded: tester
+[2026-03-04T10:10:42.718Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:42.723Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:42.729Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:42.736Z] 👤 User loaded: tester
+[2026-03-04T10:10:42.752Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:10:42.760Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:42.767Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:42.775Z] 👤 User loaded: tester
+[2026-03-04T10:10:42.782Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:42.785Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:42.791Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:42.797Z] 👤 User loaded: tester
+[2026-03-04T10:10:42.812Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:10:42.817Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:10:42.823Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:10:42.829Z] 👤 User loaded: tester
+[2026-03-04T10:12:58.799Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:12:58.806Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:12:58.814Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:12:58.826Z] 👤 User loaded: tester
+[2026-03-04T10:12:58.842Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:12:58.851Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:12:58.856Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:12:58.863Z] 👤 User loaded: tester
+[2026-03-04T10:12:58.868Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:12:58.872Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:12:58.877Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:12:58.884Z] 👤 User loaded: tester
+[2026-03-04T10:12:58.897Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:12:58.901Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:12:58.906Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:12:58.912Z] 👤 User loaded: tester
+[2026-03-04T10:13:54.196Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:13:54.204Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:13:54.214Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:13:54.226Z] 👤 User loaded: tester
+[2026-03-04T10:13:54.247Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:13:54.258Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:13:54.265Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:13:54.274Z] 👤 User loaded: tester
+[2026-03-04T10:13:54.279Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:13:54.285Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:13:54.291Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:13:54.299Z] 👤 User loaded: tester
+[2026-03-04T10:13:54.341Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:13:54.344Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:13:54.349Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:13:54.355Z] 👤 User loaded: tester
+[2026-03-04T10:17:13.204Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:17:13.215Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:17:13.233Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:17:13.241Z] 👤 User loaded: tester
+[2026-03-04T10:17:13.267Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:17:13.274Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:17:13.280Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:17:13.289Z] 👤 User loaded: tester
+[2026-03-04T10:17:17.547Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:17:17.551Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:17:17.556Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:17:17.563Z] 👤 User loaded: tester
+[2026-03-04T10:17:17.578Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:17:17.585Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:17:17.593Z] 🔓 Token decoded, user id: 69a5ee225decabc11254bdb9
+[2026-03-04T10:17:17.601Z] 👤 User loaded: tester
+[2026-03-04T10:18:37.152Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:18:37.158Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:18:37.170Z] 🔓 Token decoded, user id: 69a806e4932e266722fd7f82
+[2026-03-04T10:18:37.184Z] 👤 User loaded: test8
+[2026-03-04T10:18:37.206Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:18:37.215Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:18:37.221Z] 🔓 Token decoded, user id: 69a806e4932e266722fd7f82
+[2026-03-04T10:18:37.229Z] 👤 User loaded: test8
+[2026-03-04T10:18:39.896Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-04T10:18:39.900Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:18:39.905Z] 🔓 Token decoded, user id: 69a806e4932e266722fd7f82
+[2026-03-04T10:18:39.912Z] 👤 User loaded: test8
+[2026-03-04T10:18:39.916Z] 🔵 claimDailyReward called for user: 69a806e4932e266722fd7f82
+[2026-03-04T10:18:39.923Z] 📋 User found: test8
+[2026-03-04T10:18:39.928Z] 📅 Last Login Date: Wed Mar 04 2026 11:18:29 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-04T10:18:39.932Z] 🎯 Daily Login Streak: 1
+[2026-03-04T10:18:39.935Z] 📊 Daily Login Day: 1
+[2026-03-04T10:18:39.941Z] 🎁 Daily Reward Result: {"rewarded":false,"reason":"Déjà connecté aujourd'hui"}
+[2026-03-04T10:18:39.947Z] ⏳ Already rewarded today
+[2026-03-04T10:23:39.295Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:23:39.299Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:23:39.306Z] 🔓 Token decoded, user id: 69a8081a93ce3567e039e2c6
+[2026-03-04T10:23:39.316Z] 👤 User loaded: caca
+[2026-03-04T10:23:39.375Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:23:39.386Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:23:39.393Z] 🔓 Token decoded, user id: 69a8081a93ce3567e039e2c6
+[2026-03-04T10:23:39.401Z] 👤 User loaded: caca
+[2026-03-04T10:25:29.933Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:25:29.937Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:25:29.943Z] 🔓 Token decoded, user id: 69a8088a93ce3567e039e2d1
+[2026-03-04T10:25:29.951Z] 👤 User loaded: caca2
+[2026-03-04T10:25:29.969Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:25:29.975Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:25:29.996Z] 🔓 Token decoded, user id: 69a8088a93ce3567e039e2d1
+[2026-03-04T10:25:30.011Z] 👤 User loaded: caca2
+[2026-03-04T10:30:05.248Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:30:05.252Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:30:05.262Z] 🔓 Token decoded, user id: 69a8088a93ce3567e039e2d1
+[2026-03-04T10:30:05.271Z] 👤 User loaded: caca2
+[2026-03-04T10:30:05.282Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:30:05.287Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:30:05.296Z] 🔓 Token decoded, user id: 69a8088a93ce3567e039e2d1
+[2026-03-04T10:30:05.303Z] 👤 User loaded: caca2
+[2026-03-04T10:31:02.653Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:02.657Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:02.664Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:02.674Z] 👤 User loaded: caca3
+[2026-03-04T10:31:02.691Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:02.696Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:02.703Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:02.711Z] 👤 User loaded: caca3
+[2026-03-04T10:31:04.804Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:04.808Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:04.813Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:04.822Z] 👤 User loaded: caca3
+[2026-03-04T10:31:04.841Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:04.849Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:04.855Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:04.866Z] 👤 User loaded: caca3
+[2026-03-04T10:31:04.872Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:31:04.879Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:04.884Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:04.894Z] 👤 User loaded: caca3
+[2026-03-04T10:31:04.911Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:31:04.915Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:04.920Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:04.927Z] 👤 User loaded: caca3
+[2026-03-04T10:31:09.433Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:09.436Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:09.444Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:09.453Z] 👤 User loaded: caca3
+[2026-03-04T10:31:09.467Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:31:09.474Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:09.481Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:09.490Z] 👤 User loaded: caca3
+[2026-03-04T10:31:15.420Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:31:15.424Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:31:15.430Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:31:15.438Z] 👤 User loaded: caca3
+[2026-03-04T10:33:16.427Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:33:16.433Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:33:16.441Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:33:16.453Z] 👤 User loaded: caca3
+[2026-03-04T10:33:16.467Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:33:16.474Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:33:16.481Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:33:16.487Z] 👤 User loaded: caca3
+[2026-03-04T10:33:18.007Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:33:18.011Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:33:18.017Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:33:18.024Z] 👤 User loaded: caca3
+[2026-03-04T10:37:25.295Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:37:25.301Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:37:25.312Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:37:25.322Z] 👤 User loaded: caca3
+[2026-03-04T10:37:25.337Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:37:25.342Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:37:25.351Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:37:25.360Z] 👤 User loaded: caca3
+[2026-03-04T10:37:27.258Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:37:27.261Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:37:27.267Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:37:27.272Z] 👤 User loaded: caca3
+[2026-03-04T10:37:31.806Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:37:31.810Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:37:31.815Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:37:31.825Z] 👤 User loaded: caca3
+[2026-03-04T10:38:51.983Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:38:51.987Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:51.996Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:52.030Z] 👤 User loaded: caca3
+[2026-03-04T10:38:52.046Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:38:52.050Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:52.056Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:52.062Z] 👤 User loaded: caca3
+[2026-03-04T10:38:54.318Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:38:54.323Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:54.328Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:54.340Z] 👤 User loaded: caca3
+[2026-03-04T10:38:55.615Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:38:55.621Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:55.632Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:55.646Z] 👤 User loaded: caca3
+[2026-03-04T10:38:57.932Z] 🔐 Protect middleware: POST /open
+[2026-03-04T10:38:57.938Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:57.944Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:57.956Z] 👤 User loaded: caca3
+[2026-03-04T10:38:59.260Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:38:59.271Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:38:59.284Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:38:59.297Z] 👤 User loaded: caca3
+[2026-03-04T10:39:11.017Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:39:11.022Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:39:11.028Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:39:11.035Z] 👤 User loaded: caca3
+[2026-03-04T10:39:11.065Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:39:11.080Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:39:11.087Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:39:11.097Z] 👤 User loaded: caca3
+[2026-03-04T10:39:11.104Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:39:11.108Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:39:11.113Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:39:11.121Z] 👤 User loaded: caca3
+[2026-03-04T10:39:11.148Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:39:11.152Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:39:11.158Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:39:11.164Z] 👤 User loaded: caca3
+[2026-03-04T10:40:15.325Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:40:15.341Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:15.352Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:15.365Z] 👤 User loaded: caca3
+[2026-03-04T10:40:15.384Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:40:15.389Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:15.401Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:15.416Z] 👤 User loaded: caca3
+[2026-03-04T10:40:15.451Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:40:15.456Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:15.468Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:15.485Z] 👤 User loaded: caca3
+[2026-03-04T10:40:15.534Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:40:15.544Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:15.584Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:15.592Z] 👤 User loaded: caca3
+[2026-03-04T10:40:17.293Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:40:17.298Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:17.304Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:17.317Z] 👤 User loaded: caca3
+[2026-03-04T10:40:17.369Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:40:17.375Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:17.381Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:17.391Z] 👤 User loaded: caca3
+[2026-03-04T10:40:17.399Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:40:17.406Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:17.417Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:17.432Z] 👤 User loaded: caca3
+[2026-03-04T10:40:17.469Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:40:17.477Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:40:17.484Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:40:17.492Z] 👤 User loaded: caca3
+[2026-03-04T10:41:43.314Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:41:43.322Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:41:43.328Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:41:43.337Z] 👤 User loaded: caca3
+[2026-03-04T10:41:43.359Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:41:43.370Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:41:43.379Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:41:43.389Z] 👤 User loaded: caca3
+[2026-03-04T10:41:43.398Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:41:43.403Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:41:43.410Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:41:43.422Z] 👤 User loaded: caca3
+[2026-03-04T10:41:43.444Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:41:43.448Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:41:43.454Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:41:43.463Z] 👤 User loaded: caca3
+[2026-03-04T10:42:52.161Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:42:52.167Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:42:52.173Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:42:52.181Z] 👤 User loaded: caca3
+[2026-03-04T10:42:52.202Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:42:52.216Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:42:52.262Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:42:52.285Z] 👤 User loaded: caca3
+[2026-03-04T10:42:52.292Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:42:52.296Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:42:52.304Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:42:52.315Z] 👤 User loaded: caca3
+[2026-03-04T10:42:52.341Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:42:52.346Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:42:52.353Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:42:52.360Z] 👤 User loaded: caca3
+[2026-03-04T10:43:00.463Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:43:00.469Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:43:00.475Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:43:00.485Z] 👤 User loaded: caca3
+[2026-03-04T10:43:00.502Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:43:00.507Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:43:00.520Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:43:00.528Z] 👤 User loaded: caca3
+[2026-03-04T10:43:00.538Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:43:00.541Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:43:00.549Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:43:00.577Z] 👤 User loaded: caca3
+[2026-03-04T10:43:00.592Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:43:00.597Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:43:00.602Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:43:00.610Z] 👤 User loaded: caca3
+[2026-03-04T10:46:00.468Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:46:00.476Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:00.488Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:00.506Z] 👤 User loaded: caca3
+[2026-03-04T10:46:00.530Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:46:00.537Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:00.549Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:00.569Z] 👤 User loaded: caca3
+[2026-03-04T10:46:00.584Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:46:00.592Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:00.602Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:00.617Z] 👤 User loaded: caca3
+[2026-03-04T10:46:00.659Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:46:00.668Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:00.675Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:00.685Z] 👤 User loaded: caca3
+[2026-03-04T10:46:10.491Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:46:10.515Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:10.543Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:10.554Z] 👤 User loaded: caca3
+[2026-03-04T10:46:10.571Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:46:10.579Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:10.596Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:10.611Z] 👤 User loaded: caca3
+[2026-03-04T10:46:10.622Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:46:10.627Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:10.632Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:10.641Z] 👤 User loaded: caca3
+[2026-03-04T10:46:10.673Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:46:10.680Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:46:10.687Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:46:10.704Z] 👤 User loaded: caca3
+[2026-03-04T10:47:16.864Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:47:16.870Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:16.878Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:16.885Z] 👤 User loaded: caca3
+[2026-03-04T10:47:16.895Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:47:16.902Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:16.910Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:16.916Z] 👤 User loaded: caca3
+[2026-03-04T10:47:18.867Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:47:18.872Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:18.878Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:18.890Z] 👤 User loaded: caca3
+[2026-03-04T10:47:18.903Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:47:18.909Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:18.917Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:18.923Z] 👤 User loaded: caca3
+[2026-03-04T10:47:18.930Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:47:18.934Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:18.939Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:18.948Z] 👤 User loaded: caca3
+[2026-03-04T10:47:18.967Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:47:18.972Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:47:18.977Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:47:18.984Z] 👤 User loaded: caca3
+[2026-03-04T10:48:46.026Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:48:46.031Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:46.038Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:46.047Z] 👤 User loaded: caca3
+[2026-03-04T10:48:46.059Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:48:46.068Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:46.073Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:46.080Z] 👤 User loaded: caca3
+[2026-03-04T10:48:46.087Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:48:46.091Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:46.096Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:46.104Z] 👤 User loaded: caca3
+[2026-03-04T10:48:46.117Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:48:46.121Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:46.126Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:46.134Z] 👤 User loaded: caca3
+[2026-03-04T10:48:54.634Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:48:54.637Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:54.643Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:54.651Z] 👤 User loaded: caca3
+[2026-03-04T10:48:54.668Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:48:54.675Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:54.682Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:54.689Z] 👤 User loaded: caca3
+[2026-03-04T10:48:54.696Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:48:54.701Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:54.705Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:54.714Z] 👤 User loaded: caca3
+[2026-03-04T10:48:54.731Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:48:54.736Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:48:54.741Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:48:54.748Z] 👤 User loaded: caca3
+[2026-03-04T10:55:43.105Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:55:43.113Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:55:43.123Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:55:43.134Z] 👤 User loaded: caca3
+[2026-03-04T10:55:43.147Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T10:55:43.155Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:55:43.165Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:55:43.172Z] 👤 User loaded: caca3
+[2026-03-04T10:55:43.199Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:55:43.203Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:55:43.211Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:55:43.219Z] 👤 User loaded: caca3
+[2026-03-04T10:55:43.238Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T10:55:43.246Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T10:55:43.255Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T10:55:43.265Z] 👤 User loaded: caca3
+[2026-03-04T11:32:38.871Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:32:38.875Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:32:38.880Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:32:38.887Z] 👤 User loaded: caca3
+[2026-03-04T11:32:38.901Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:32:38.908Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:32:38.915Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:32:38.922Z] 👤 User loaded: caca3
+[2026-03-04T11:33:25.475Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:33:25.480Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:33:25.487Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:33:25.495Z] 👤 User loaded: caca3
+[2026-03-04T11:33:25.516Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:33:25.522Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:33:25.531Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:33:25.540Z] 👤 User loaded: caca3
+[2026-03-04T11:33:28.912Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-04T11:33:28.916Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:33:28.921Z] 🔓 Token decoded, user id: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:33:28.926Z] 👤 User loaded: caca3
+[2026-03-04T11:33:28.930Z] 🔵 claimDailyReward called for user: 69a809d7766f1bd6f1aea806
+[2026-03-04T11:33:28.936Z] 📋 User found: caca3
+[2026-03-04T11:33:28.940Z] 📅 Last Login Date: Wed Mar 04 2026 11:30:58 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-04T11:33:28.944Z] 🎯 Daily Login Streak: 1
+[2026-03-04T11:33:28.948Z] 📊 Daily Login Day: 1
+[2026-03-04T11:33:28.952Z] 🎁 Daily Reward Result: {"rewarded":false,"reason":"Déjà connecté aujourd'hui"}
+[2026-03-04T11:33:28.956Z] ⏳ Already rewarded today
+[2026-03-04T11:36:44.612Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:36:44.620Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:36:44.626Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:44.639Z] 👤 User loaded: nicotine
+[2026-03-04T11:36:44.654Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:36:44.664Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:36:44.675Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:44.688Z] 👤 User loaded: nicotine
+[2026-03-04T11:36:49.732Z] 🔐 Protect middleware: POST /claim-daily-reward
+[2026-03-04T11:36:49.738Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:36:49.744Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:49.754Z] 👤 User loaded: nicotine
+[2026-03-04T11:36:49.761Z] 🔵 claimDailyReward called for user: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:49.775Z] 📋 User found: nicotine
+[2026-03-04T11:36:49.780Z] 📅 Last Login Date: Wed Mar 04 2026 12:36:35 GMT+0100 (heure normale d’Europe centrale)
+[2026-03-04T11:36:49.785Z] 🎯 Daily Login Streak: 1
+[2026-03-04T11:36:49.791Z] 📊 Daily Login Day: 1
+[2026-03-04T11:36:49.795Z] 🎁 Daily Reward Result: {"rewarded":false,"reason":"Déjà connecté aujourd'hui"}
+[2026-03-04T11:36:49.803Z] ⏳ Already rewarded today
+[2026-03-04T11:36:56.951Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:36:56.956Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:36:56.964Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:56.972Z] 👤 User loaded: nicotine
+[2026-03-04T11:36:56.989Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:36:56.998Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:36:57.015Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:36:57.024Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:01.141Z] 🔐 Protect middleware: POST /open
+[2026-03-04T11:37:01.151Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:01.158Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:01.173Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:02.476Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:37:02.484Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:02.498Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:02.511Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:09.654Z] 🔐 Protect middleware: POST /open
+[2026-03-04T11:37:09.662Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:09.675Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:09.685Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:10.960Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:37:10.971Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:10.988Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:11.001Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:15.507Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:37:15.516Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:15.527Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:15.553Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:15.570Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:37:15.577Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:15.585Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:15.591Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:15.602Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:37:15.606Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:15.614Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:15.620Z] 👤 User loaded: nicotine
+[2026-03-04T11:37:15.638Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:37:15.643Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:37:15.650Z] 🔓 Token decoded, user id: 69a819378e705c7d0bbcc812
+[2026-03-04T11:37:15.655Z] 👤 User loaded: nicotine
+[2026-03-04T11:42:35.510Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:35.520Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:35.532Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:35.543Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:35.559Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:35.575Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:35.582Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:35.590Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:35.597Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:42:35.604Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:35.610Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:35.619Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:35.637Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:42:35.645Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:35.654Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:35.661Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:37.686Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:37.691Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:37.700Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:37.712Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:37.730Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:37.741Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:37.754Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:37.764Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:43.492Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:43.501Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:43.512Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:43.524Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:43.540Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:43.551Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:43.559Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:43.570Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:53.131Z] 🔐 Protect middleware: POST /open
+[2026-03-04T11:42:53.139Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:53.152Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:53.166Z] 👤 User loaded: nicotine2
+[2026-03-04T11:42:54.455Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:42:54.471Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:42:54.487Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:42:54.501Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:05.591Z] 🔐 Protect middleware: POST /open
+[2026-03-04T11:43:05.596Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:05.604Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:05.617Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:06.872Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:43:06.884Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:06.893Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:06.908Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:09.723Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:43:09.737Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:09.745Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:09.777Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:09.795Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T11:43:09.803Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:09.809Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:09.818Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:09.827Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:43:09.831Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:09.838Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:09.846Z] 👤 User loaded: nicotine2
+[2026-03-04T11:43:09.863Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T11:43:09.869Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T11:43:09.879Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T11:43:09.894Z] 👤 User loaded: nicotine2
+[2026-03-04T12:00:21.656Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:00:21.661Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:00:21.669Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:00:21.679Z] 👤 User loaded: nicotine2
+[2026-03-04T12:00:21.709Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:00:21.722Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:00:21.733Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:00:21.759Z] 👤 User loaded: nicotine2
+[2026-03-04T12:00:21.774Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:00:21.780Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:00:21.792Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:00:21.799Z] 👤 User loaded: nicotine2
+[2026-03-04T12:00:21.837Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:00:21.845Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:00:21.850Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:00:21.859Z] 👤 User loaded: nicotine2
+[2026-03-04T12:02:10.152Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:02:10.157Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:02:10.165Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:02:10.172Z] 👤 User loaded: nicotine2
+[2026-03-04T12:02:10.185Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:02:10.191Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:02:10.196Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:02:10.206Z] 👤 User loaded: nicotine2
+[2026-03-04T12:02:10.213Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:02:10.219Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:02:10.226Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:02:10.233Z] 👤 User loaded: nicotine2
+[2026-03-04T12:02:10.256Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:02:10.262Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:02:10.269Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:02:10.276Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:03.784Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:05:03.789Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:03.796Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:03.808Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:03.820Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:05:03.826Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:03.833Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:03.840Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:03.846Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:05:03.851Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:03.856Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:03.863Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:03.879Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:05:03.887Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:03.892Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:03.900Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:05.083Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:05:05.089Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:05.095Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:05.108Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:05.118Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:05:05.125Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:05.131Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:05.138Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:05.144Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:05:05.148Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:05.154Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:05.162Z] 👤 User loaded: nicotine2
+[2026-03-04T12:05:05.176Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:05:05.180Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:05:05.185Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:05:05.193Z] 👤 User loaded: nicotine2
+[2026-03-04T12:06:00.189Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:06:00.194Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:06:00.207Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:06:00.248Z] 👤 User loaded: nicotine2
+[2026-03-04T12:06:00.267Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:06:00.272Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:06:00.280Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:06:00.288Z] 👤 User loaded: nicotine2
+[2026-03-04T12:06:00.295Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:06:00.299Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:06:00.304Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:06:00.317Z] 👤 User loaded: nicotine2
+[2026-03-04T12:06:00.350Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:06:00.355Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:06:00.360Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:06:00.369Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:35.950Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:35.956Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:35.962Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:35.976Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:36.011Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:36.017Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:36.023Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:36.030Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:36.038Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:09:36.045Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:36.052Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:36.063Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:36.087Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:09:36.094Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:36.099Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:36.109Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:37.438Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:37.444Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:37.451Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:37.459Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:37.470Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:37.475Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:37.482Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:37.489Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:37.497Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:09:37.501Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:37.507Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:37.517Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:37.533Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:09:37.567Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:37.572Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:37.581Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:40.860Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:40.864Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:40.870Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:40.877Z] 👤 User loaded: nicotine2
+[2026-03-04T12:09:40.891Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:09:40.899Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:09:40.909Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:09:40.919Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:26.958Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:12:26.964Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:26.973Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:26.987Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:27.055Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:12:27.060Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:27.069Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:27.077Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:27.086Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:12:27.090Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:27.100Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:27.112Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:27.135Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:12:27.142Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:27.148Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:27.157Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:29.051Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:12:29.056Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:29.064Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:29.073Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:29.086Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:12:29.094Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:29.100Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:29.106Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:29.114Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:12:29.119Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:29.124Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:29.132Z] 👤 User loaded: nicotine2
+[2026-03-04T12:12:29.151Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:12:29.156Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:12:29.162Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:12:29.169Z] 👤 User loaded: nicotine2
+[2026-03-04T12:13:23.489Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:13:23.493Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:13:23.503Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:13:23.538Z] 👤 User loaded: nicotine2
+[2026-03-04T12:13:23.553Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:13:23.558Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:13:23.564Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:13:23.573Z] 👤 User loaded: nicotine2
+[2026-03-04T12:13:23.579Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:13:23.584Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:13:23.589Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:13:23.601Z] 👤 User loaded: nicotine2
+[2026-03-04T12:13:23.635Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:13:23.639Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:13:23.644Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:13:23.653Z] 👤 User loaded: nicotine2
+[2026-03-04T12:15:57.225Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:15:57.236Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:15:57.245Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:15:57.265Z] 👤 User loaded: nicotine2
+[2026-03-04T12:15:57.281Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:15:57.288Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:15:57.299Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:15:57.309Z] 👤 User loaded: nicotine2
+[2026-03-04T12:15:57.324Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:15:57.383Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:15:57.446Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:15:57.507Z] 👤 User loaded: nicotine2
+[2026-03-04T12:15:57.530Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:15:57.539Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:15:57.545Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:15:57.556Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:06.342Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:16:06.348Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:06.360Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:06.376Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:06.397Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:16:06.403Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:06.411Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:06.424Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:10.178Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:16:10.184Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:10.197Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:10.208Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:10.226Z] 🔐 Protect middleware: GET /profile
+[2026-03-04T12:16:10.233Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:10.243Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:10.270Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:10.283Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:16:10.290Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:10.300Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:10.313Z] 👤 User loaded: nicotine2
+[2026-03-04T12:16:10.348Z] 🔐 Protect middleware: GET /inventory
+[2026-03-04T12:16:10.372Z] ✅ Token found: eyJhbGciOiJIUzI1NiIs...
+[2026-03-04T12:16:10.383Z] 🔓 Token decoded, user id: 69a81a858e705c7d0bbcc850
+[2026-03-04T12:16:10.426Z] 👤 User loaded: nicotine2

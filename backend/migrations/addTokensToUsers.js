@@ -12,12 +12,12 @@ async function migrateTokens() {
     // Mettre à jour tous les utilisateurs sans tokens
     const result = await User.updateMany(
       { tokens: { $exists: false } },
-      { 
-        tokens: 200,
+      {
+        tokens: 500,
         dailyLoginStreak: 0,
         dailyLoginDay: 0,
-        lastLoginDate: null
-      }
+        lastLoginDate: null,
+      },
     );
 
     console.log(`✅ ${result.modifiedCount} utilisateurs mis à jour`);

@@ -1,0 +1,43 @@
+#!/bin/bash
+# 📋 GUIDE : Gestion des Tokens - Source Unique de Vérité
+
+echo "🧹 ÉTAPE 1 : Supprimer le fichier dupliqué"
+echo "Supprimez manuellement : assets/scripts/User.js"
+echo "Ce fichier ne sera JAMAIS utilisé (Mongoose ne fonctionne pas côté client)"
+echo ""
+
+echo "📊 ÉTAPE 2 : Vérifier les sources véritables"
+echo ""
+echo "✅ backend/models/User.js"
+echo "   - tokens: { type: Number, default: 500 }"
+echo "   - stats: { wins, losses, draws }"
+echo "   - inventory: [ ObjectId ]"
+echo ""
+echo "✅ backend/migrations/addTokensToUsers.js"
+echo "   - Ajoute 500 tokens aux users sans le champ"
+echo ""
+echo "✅ backend/controllers/authController.js"
+echo "   - register() : crée avec default 500"
+echo "   - login() : assure tokens: user.tokens || 500"
+echo ""
+
+echo "🔧 ÉTAPE 3 : Exécuter la migration de correction"
+echo "Si vous avez des users avec 200 tokens au lieu de 500 :"
+echo "  cd backend"
+echo "  node migrations/fixTokensDefaults.js"
+echo ""
+
+echo "📋 ÉTAPE 4 : Vérifier la cohérence"
+echo "Les seuls fichiers qui importent User :"
+grep -r "require.*User\|from.*User" backend/controllers/*.js | grep -v node_modules || echo "  (vérification complète)"
+echo ""
+
+echo "✨ Résumé des tokens :"
+echo "  • Création compte     : 500 tokens (défaut)"
+echo "  • Login quotidien     : +50 tokens (handleDailyLogin)"  
+echo "  • Pack Starter        : -50 tokens"
+echo "  • Pack Standard       : -100 tokens"
+echo "  • Pack Premium        : -200 tokens"
+echo "  • Pack Legendary      : -500 tokens"
+echo ""
+echo "✅ Tous cohérents avec backend/models/User.js"

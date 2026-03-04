@@ -4,6 +4,7 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pokédex — Inventaire</title>
+  <link rel="stylesheet" href="../assets/styles/PokeCards.css"/>
   <link rel="stylesheet" href="../assets/styles/UserInventory.css"/>
   <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet"/>
 </head>
@@ -14,6 +15,10 @@
       <img src="../assets/images/pokebola.webp" alt="Home"/>
     </a>
     <h1>Pokédex</h1>
+    <div class="search-bar">
+      <input type="text" id="search" placeholder="Rechercher…" autocomplete="off"/>
+    </div>
+    <div class="filter-bar" id="typeFilters"></div>
     
     <!-- Boutons si NON connecté -->
     <div id="notAuthButtons" style="display: none;">
@@ -36,10 +41,60 @@
     </div>
   </header>
 
-  <main id="inventoryContent">
+  <main>
     <h2>Mon Inventaire</h2>
-    <!-- Le contenu de l'inventaire sera généré par JavaScript -->
+
+    <div class="loader" id="loader">
+      <div class="pokeball-loader">
+        <div class="pb-top"></div>
+        <div class="pb-band"><div class="pb-btn"></div></div>
+        <div class="pb-bottom"></div>
+      </div>
+      <p>Chargement des cartes…</p>
+      <div class="progress-bar-wrap"><div class="progress-bar" id="progressBar"></div></div>
+    </div>
+
+    <div class="cards-grid" id="cardsGrid"></div>
   </main>
+
+  <script>
+    // ── Récupère le token stocké ──────────────────────────
+    function getToken() {
+      return localStorage.getItem('token');
+    }
+
+    // ── Récupère l'user stocké ────────────────────────────
+    function getUser() {
+      const u = localStorage.getItem('user');
+      return u ? JSON.parse(u) : null;
+    }
+
+    // ── Déconnexion ───────────────────────────────────────
+    function logout() {
+      localStorage.removeItem('token');
+      localStorage.removeItem('user');
+      window.location.href = '/pages/Login.html';
+    }
+
+    // ── Affiche/cache les boutons selon l'auth ────────────
+    function updateAuthUI() {
+      const token = getToken();
+      const notAuthButtons = document.getElementById('notAuthButtons');
+      const authButtons = document.getElementById('authButtons');
+
+      if (token && token.trim() !== '') {
+        notAuthButtons.style.display = 'none';
+        authButtons.style.display = 'flex';
+      } else {
+        notAuthButtons.style.display = 'flex';
+        authButtons.style.display = 'none';
+      }
+    }
+
+    // ── Exécution immédiate et au chargement ───────────────
+    updateAuthUI();
+    document.addEventListener('DOMContentLoaded', updateAuthUI);
+  </script>
 
   <script src="../assets/scripts/UserInventory.js"></script>
 </body>

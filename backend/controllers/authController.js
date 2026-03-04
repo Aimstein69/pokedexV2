@@ -106,7 +106,7 @@ const login = async (req, res) => {
         username: user.username,
         email: user.email,
         avatar: user.avatar,
-        tokens: user.tokens || 200,
+        tokens: user.tokens || 500,
         stats: user.stats,
         dailyLoginStreak: user.dailyLoginStreak,
         inventory: user.inventory,
@@ -125,7 +125,7 @@ const getMe = async (req, res) => {
   try {
     // req.user est injecté par le middleware protect
     const user = await User.findById(req.user._id).select("-password");
-    
+
     if (!user) {
       return res.status(404).json({ message: "Utilisateur introuvable" });
     }
@@ -135,7 +135,7 @@ const getMe = async (req, res) => {
       username: user.username,
       email: user.email,
       avatar: user.avatar,
-      tokens: user.tokens || 200,
+      tokens: user.tokens || 500,
       stats: user.stats,
       dailyLoginStreak: user.dailyLoginStreak,
       inventory: user.inventory,
